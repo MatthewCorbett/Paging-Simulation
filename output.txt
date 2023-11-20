@@ -1,0 +1,19 @@
+Result for the following command: 
+java A3 16 3 Process1.txt Process2.txt Process3.txt Process4.txt
+
+Clock - Fixed-Local Replacement:
+PID  Process-Name  Turnaround  # Faults  Fault-Times 
+1    process1      39          5         {0, 7, 14, 22, 31}
+2    process2      85          10        {0, 8, 15, 23, 32, 45, 52, 59, 67, 77}
+3    process3      33          3         {0, 9, 16}
+4    process4      94          11        {0, 10, 17, 27, 34, 44, 51, 58, 66, 78, 86}
+
+------------------------------------------------------------
+
+Clock - Variable-Global Replacement:
+PID  Process-Name  Turnaround  # Faults  Fault-Times 
+1    process1      39          5         {0, 7, 14, 22, 31}
+2    process2      81          9         {0, 8, 15, 23, 32, 45, 52, 59, 68}
+3    process3      33          3         {0, 9, 16}
+4    process4      80          9         {0, 10, 17, 27, 34, 44, 51, 58, 71}
+
