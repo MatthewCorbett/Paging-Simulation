@@ -1,6 +1,7 @@
 # NOTES
 
-Hello :)
+This program was created for an assignment. 
+It simulates clock policy page replacement in FALR and VAGR scope.
 
 # COMMAND LINE PARAMETERS
 
